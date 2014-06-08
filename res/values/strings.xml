@@ -10,4 +10,6 @@
     <string name="pref_title_server_port">Server Port</string>
     <string name="from">© DESTOUCHES Pierre - ROCHELLE Guillaume</string>
     <string name="welcome">UTBM Localisation App</string>
+    <string name="contentDescriptionMap">Map</string>
+
 </resources>

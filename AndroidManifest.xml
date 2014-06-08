@@ -7,19 +7,21 @@
         android:minSdkVersion="17"
         android:targetSdkVersion="19" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        
-            <activity
+        <activity
             android:name="fr.utbm.localisationapp.WelcomeActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -38,7 +40,7 @@
                     android:value="fr.utbm.localisationapp.WelcomeActivity" />
             </intent-filter>
         </activity>
-          <activity
+        <activity
             android:name="fr.utbm.localisationapp.LocalisationActivity"
             android:label="@string/act_localisation"
             android:parentActivityName="fr.utbm.localisationapp.WelcomeActivity"
@@ -54,8 +56,5 @@
                 android:value="fr.utbm.localisationapp.WelcomeActivity" />
         </activity>
     </application>
-    
-    
-
 
 </manifest>

@@ -53,13 +53,17 @@ containing a value of this type.
     }
     public static final class drawable {
         public static final int logo=0x7f020000;
+        public static final int map=0x7f020001;
+        public static final int marker=0x7f020002;
     }
     public static final class id {
-        public static final int copyrights=0x7f070004;
-        public static final int localisation_button=0x7f070002;
-        public static final int logo=0x7f070000;
-        public static final int settings_button=0x7f070003;
-        public static final int welcometext=0x7f070001;
+        public static final int copyrights=0x7f070006;
+        public static final int localisation_button=0x7f070004;
+        public static final int logo=0x7f070002;
+        public static final int map=0x7f070001;
+        public static final int relativeLayout=0x7f070000;
+        public static final int settings_button=0x7f070005;
+        public static final int welcometext=0x7f070003;
     }
     public static final class layout {
         public static final int activity_localisation=0x7f030000;
@@ -71,6 +75,7 @@ containing a value of this type.
         public static final int act_localisation=0x7f060002;
         public static final int app_name=0x7f060000;
         public static final int but_localisation=0x7f060001;
+        public static final int contentDescriptionMap=0x7f06000a;
         public static final int desc_logo=0x7f060004;
         public static final int from=0x7f060008;
         public static final int pref_title_server_address=0x7f060006;

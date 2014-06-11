@@ -1,22 +1,16 @@
 package fr.utbm.localisationapp;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Matrix;
 import android.graphics.PointF;
 import android.graphics.Rect;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import android.widget.Toast;
-import fr.utbm.localisationapp.R;
 
 public class LocalisationActivity extends Activity {
 
